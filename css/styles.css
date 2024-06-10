@@ -287,6 +287,13 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+
+.socials {
+display: flex;
+justify-content: center;
+gap: 24px;
+
+}
  
 
 .section-four{
