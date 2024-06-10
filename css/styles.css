@@ -231,7 +231,6 @@ background-color: #f4f4fd;
 border-radius: 4px;
 border: 1px solid #8e8f99;
 margin-bottom: 8px;
-
 }
 
 .section-three{
@@ -260,9 +259,6 @@ margin-bottom: 72px;
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 background-color: #FFFFFF;
-box-sizing:  1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-content {
@@ -284,6 +280,9 @@ text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 8px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .job-title {
@@ -297,6 +296,8 @@ color: #434455;
 }
 
 .socials {
+width: 40px;
+height: 40px;
 display: flex;
 justify-content: center;
 gap: 24px;
