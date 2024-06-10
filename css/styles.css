@@ -390,9 +390,18 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.footer-box {
+.footer {
 background-color: #2e2f42;
 padding: 100px 0;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+}
+
+.divlogo {
+    margin-right: 120px;
 }
 
 .footer-logo{
