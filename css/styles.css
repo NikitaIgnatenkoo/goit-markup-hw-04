@@ -393,8 +393,6 @@ color: #434455;
 .footer-box {
 background-color: #2e2f42;
 padding: 100px 0;
-display: flex;
-align-items: baseline;
 }
 
 .footer-logo{
@@ -420,6 +418,11 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
+}
+
+.footer-social {
+    display: flex;
+    align-items: baseline;
 }
 
 .social-media {
@@ -457,5 +460,5 @@ max-width: 264px;
 }
 
 .list-image {
-fill: #f4f4fd;
+fill: #f4f4fd
 }
