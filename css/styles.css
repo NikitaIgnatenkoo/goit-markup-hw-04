@@ -329,7 +329,8 @@ height: 40px;
     justify-content: center;
 }
 
-.social-style:hover .social-style:focus{
+.social-style:hover,
+.social-style:focus{
 background-color: #404bbf;
 }
 
