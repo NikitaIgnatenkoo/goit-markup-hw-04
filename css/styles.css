@@ -31,9 +31,9 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-  :after {
-content: '';
+:after {
 width: 100%;
+content: '';
 position: absolute;
 left: 0;
 bottom: -1px;
