@@ -361,6 +361,7 @@ font-weight: 500;
     line-height: 120%;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    padding: 32px 0;
 }
 
 .portfolio-list{ 
