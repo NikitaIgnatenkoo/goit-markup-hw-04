@@ -38,7 +38,6 @@ padding: 0 15px 0 15px;
 }
 
 .header-container {
-    display: flex;
     align-items: center;
 }
 
@@ -69,6 +68,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #2e2f42;
 padding: 24px 0;
+display: block;
 }
 
 .nav-active {
@@ -78,7 +78,8 @@ justify-content: start;
 align-items: end;
 position: relative;
 color: #404bbf;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+padding: 24 0;
 }
 
 .nav-active:hover,
@@ -140,7 +141,9 @@ color: #404bbf;
 }
 
 .section-one {
-margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 48px;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Hero/heroimg.jpg);
 padding: 188px 0 188px;
 max-width: 1440px;
@@ -272,10 +275,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-content {
-    padding: 32px 0;
-}
-
 .img {
 background-color: #ffffff;
 display: block;
@@ -327,6 +326,7 @@ height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-style:hover,
