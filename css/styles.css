@@ -358,10 +358,11 @@ margin-bottom: 72px;
 
 .portfolio-content {
 font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
 margin-bottom: 8px;
+padding: 32px 0;
 }
 
 .portfolio-list{ 
